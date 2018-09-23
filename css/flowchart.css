@@ -1,9 +1,15 @@
+#tab_gravityflow #form_settings {
+    position: relative;
+}
 #flowchart-icon{
-    float:right;
     font-size:20px;
     position: absolute;
-    top: 150px;
+    top: 0;
     right: 20px;
+}
+.rtl #flowchart-icon{
+    left: 20px;
+    right: auto;
 }
 
 #zoom-level{
@@ -15,11 +21,18 @@
     text-align:right;
     font-size:20px;
     position: absolute;
-    top: 150px;
+    top: 0;
     right: 20px;
+}
+.rtl #flowchart-toolbar{
+    text-align:left;
+    left: 20px;
 }
 #flowchart-toolbar a{
     margin-left: 5px;
+}
+.rtl #flowchart-toolbar a{
+    margin-right: 5px;
 }
 #myholder svg{
     cursor: -webkit-grab;
