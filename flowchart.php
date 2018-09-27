@@ -5,7 +5,7 @@ Plugin URI: http://gravityflow.io
 Description: Flowchart Extension for Gravity Flow
 Version: 1.1.2-dev
 Author: Gravity Flow
-Author URI: http://gravityflow.com
+Author URI: http://gravityflow.io
 License: GPL-3.0+
 Text Domain: gravityflowflowchart
 Domain Path: /languages
