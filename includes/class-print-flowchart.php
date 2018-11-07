@@ -44,11 +44,18 @@ class Gravity_Flow_Flowchart_Print_Flowchart {
 				echo esc_html( $title );
 				?>
 			</title>
-		<head>
-		<link rel='stylesheet' href='<?php echo gravity_flow_flowchart()->get_base_url() ?>/css/joint<?php echo $min; ?>.css' type='text/css'/>
-		<link rel='stylesheet' href='<?php echo gravity_flow_flowchart()->get_base_url() ?>/css/flowchart<?php echo $min; ?>.css' type='text/css'/>
+            <head>
+                <link rel='stylesheet'
+                      href='<?php echo gravity_flow_flowchart()->get_base_url() ?>/css/joint<?php echo $min; ?>.css'
+                      type='text/css'/>
+                <link rel='stylesheet'
+                      href='<?php echo gravity_flow_flowchart()->get_base_url() ?>/css/flowchart<?php echo $min; ?>.css'
+                      type='text/css'/>
+                <link rel='stylesheet'
+                      href='<?php echo GFCommon::get_base_url() ?>/css/font-awesome<?php echo $min; ?>.css'
+                      type='text/css'/>
 
-		<?php
+				<?php
 		$styles = apply_filters( 'gravityflowflowchart_print_styles', false );
 		if ( ! empty( $styles ) ) {
 			wp_print_styles( $styles );
