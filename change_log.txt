@@ -1,1 +1,0 @@
-- Fixed an issue when printing where the step icons are not displayed.
